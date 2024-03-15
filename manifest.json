@@ -1,0 +1,49 @@
+{
+  "version": "0.4",
+  "version_code": 4,
+  "name": "Push It Bunny!",
+  "package_name": "com.pixcellplay.pushitbunnySP",
+  "description": "Embark on a cerebral adventure with 'Push it Bunny!,' a captivating level-based puzzle game. Guide the adorable Bunny through a perilous journey, maneuvering past treacherous obstacles such as Spikes, Chainsaws, and Fire pits to reach the coveted Carrots.",
+  "launch_path": "/index.html",
+  "icons": {    
+    "128": "/images/icons/icon128x128.png"
+  },
+  "developer": {
+    "name": "Pixcell Play Pvt Ltd",
+    "url": "https://pixcellplay.com"
+  },
+  "default_locale": "en",
+  "fullscreen": true,
+  "permissions":{
+	"systemXHR": {
+		"description": "Req by SSO, This permission is require to call web api"
+	},
+	"device-storage:sdcard": {
+		"description": "Req by SSO readwrite readwrite access",
+		"name": "device-storage:sdcard",
+		"access": "readwrite"
+	},
+	"browser": {
+		"description": "Required for embedding a browser iframe"
+	},
+	"serviceworker": {
+		"description": "Required for push"
+	},
+	"desktop-notification": {
+		"description": "Required for desktop notifications"
+	},
+	"volumemanager": {
+		"description": "Required for volume control using native method"
+	},
+	"push": {
+		"description": "Required for notifications"
+	},
+	"audio-capture": {
+		"description": "Required to capture audio using getUserMedia()"
+	},
+	"datacall":{
+		"description": "Required to check internet connection"
+	},
+	"cross-domain-content": ["https://domain-name/"]
+  }
+}

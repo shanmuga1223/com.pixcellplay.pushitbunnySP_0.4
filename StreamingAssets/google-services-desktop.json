@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "809470954701",
+    "firebase_url": "https://bunnygo-3083d-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "bunnygo-3083d",
+    "storage_bucket": "bunnygo-3083d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:809470954701:android:5531abccbc9b6ebd55ed84",
+        "android_client_info": {
+          "package_name": "com.pixcellplay.byg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "809470954701-12fuifmit0ohnoc34ffa7pkk6j1ki1q0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2mE2JtTgozmmf0c1fQ08TWy1jyZx46Zo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "809470954701-12fuifmit0ohnoc34ffa7pkk6j1ki1q0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "809470954701-e10h1s64og96spmgqv3huq8kf2l51q06.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pixcellplay.byg"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
